@@ -108,15 +108,16 @@ Axiomator is not:
 
 Suggested internal layout for a single model file (illustrative):
 
-- Core_Engine: 100 MB
+- Core_Engine(Main Neural Network): Any
 - Text_Rules: 2 GB
 - Image_Examples: 3 GB
 - Audio_Patterns: 1 GB
 - Video_Scripts: 2 GB
 - Control_Procedures: 1 GB
 - Cross_Modal_Rules: 500 MB
+- And More
 
-Total: ~7.6 GB for a robust assistant that handles language, perception, and planning without guessing. Sizes scale with actual knowledge, not arbitrary parameter counts.
+Total: ~7.6 GB to 20 GB for a robust assistant that handles language, perception, and planning without guessing. Sizes scale with actual knowledge, not arbitrary parameter counts.
 
 ***
 
